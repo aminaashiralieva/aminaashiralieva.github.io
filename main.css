@@ -1,0 +1,329 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+  
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url(./fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf);
+    font-style: normal;    
+    font-weight: normal;    
+    
+
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(./fonts/SF-Pro-text/SFProText-Regular.ttf);
+    font-style: normal;    
+    font-weight: normal;    
+
+    
+
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background: black url("img/back.png") center bottom no-repeat;
+    height: 100vh;
+    padding: 3vh 5vw;
+}
+header a{
+    margin: 0 1.5vw;
+}
+header img{
+    margin: 0 27vw 0 0;
+}
+header p{
+    color: white;
+    margin: 0;
+    padding: 1vh;
+    text-align: center;
+}
+header div{
+    padding: 30vh 0;
+}
+.mac-place{
+    background: white;
+    padding: 80px;
+    
+}
+.mac-place-title{
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 91.429% */
+    position: relative;
+}
+.mac-place .mac_item{
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.30); 
+    border: 0.5px solid rgba(57, 70, 175, 0.30);
+    background: #FFF;
+    width: 239px;
+    height: 316px;
+    /* Drop Shadow */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mac-place .mac_item:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.mac-place .mac_item:first-child{
+    margin-left: 0;
+}
+.mac-place .mac_item img{
+    max-width: 240px;
+    /* margin-top: 42px; */
+    max-height: 164px;     
+}
+.mac-place .mac_item p{
+    text-align: center;
+}
+
+.mac-item-div {
+
+}
+
+.mac1-place{
+    background: white;
+    height: 100vh;
+    padding-top: 3vh;
+    width: 99vw;
+
+        
+}
+.mac1-place-title{
+    margin-top: 104px;
+    height: 100px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 91.429% */
+    position: relative;
+    left: 37%;
+}
+.container{
+    margin-top: 47px;
+    display: inline-flex;
+    justify-content: center;
+    width: 99vw;
+    gap: 35px;
+
+
+}
+.mac1-place .mac_item{
+    cursor: pointer;
+    transition: 0.5s;
+    /* margin-left: 35px; */
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.30); 
+    border: 0.5px solid rgba(57, 70, 175, 0.30);
+    background: #FFF;
+    width: 239px;
+    height: 316px;
+    /* Drop Shadow */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mac1-place .mac_item:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.mac1-place .mac_item:first-child{
+    margin-left: 0;
+}
+.mac1-place .mac_item img{
+    max-width: 240px;
+    /* margin-top: 42px; */
+    max-height: 164px;     
+}
+.mac1-place .mac_item p{
+    text-align: center;
+}
+
+.mac1-place-title {
+    width: 500px;
+}
+
+.mac_item_div {
+    /* margin-left: 2%; */
+    margin-top: 47px;
+    display: inline-flex;
+    justify-content: center;
+    width: 99vw;
+    gap: 35px;
+
+}
+
+.select{
+    display: inline-flex;
+    color: #7A7A7A;
+    font-family: "SF Pro Text";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 118.182% */
+    letter-spacing: 0.088px;
+    height: 26px;
+    width: 87px;
+}
+.select .active{
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+    letter-spacing: 0.088px;
+    text-decoration: underline black;
+}
+.select p{
+    position: relative;
+    margin-top: 25px;
+    left: 44vw;
+    margin-left: 20px;
+}
+.select p:first-child{
+    margin-left: 0;
+}
+.mac_item p{
+    color: #1C1C1C;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+.mac_title{
+    color: #1C1C1C;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 129.412% */    
+}
+
+.adBlock{
+    padding: 120px 0;
+    color: white;
+    width: 99vw;
+    height: 1050px; 
+    background-color: #000;
+    z-index: 0;
+}
+.adBlock_title{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    z-index: 2;
+    line-height: normal;    
+}
+.adBlock_body{
+    margin: auto;
+    margin-top: 20px;
+    width: 1000px;
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 117.647% */
+}
+.ad_img img{
+    display: block;
+    margin: 100px auto;
+    width: 432px;
+}
+
+.new {
+    font-size: 17px !important;
+    color: #FF0000 !important;
+}
+
+.headphones {
+    width: 105px !important;
+    height: 138px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.airpods-max{
+    background-image: url("img/7.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height:800px; 
+}
+
+.footer-container {
+    padding: 201px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.footer_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_ul div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.soc_net {
+    padding: 50px;
+}
+
+.soc_net .icons {
+    border-bottom: solid 2px #000;
+    padding-bottom: 10px;
+}
+
+.soc_net .links {
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.soc_net .line {
+    width: 1px;
+    margin: 0 30px;
+    background-color: #000;
+}
